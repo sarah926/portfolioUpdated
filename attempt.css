@@ -6,6 +6,34 @@ body{
     margin-left:5%;
     margin-right: 5%;
 }
+h4{
+  /* background:  linear-gradient(blue, lightblue);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 136px; */
+  /* animation: rgb 10s linear infinite; */
+}
+@keyframes rgb{
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    background-position: 100% 100%;
+    transform: scale(1);
+  }
+
+  100% {
+    background-position: 0 0;
+    transform: scale(0.5);
+  }
+}
+h3{
+  font-weight: lighter;
+  font-size: 20px;
+}
+h3{
+  font-size: 20px;
+}
 .ad{
     display: inline-block;
     position: relative;
@@ -60,8 +88,9 @@ body{
   .grid-item-projects {
     border: 3px solid black;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
     color: black;
+    font-weight: lighter;
     padding: 0;
     margin: 0;
     overflow-wrap: break-word;
@@ -165,6 +194,15 @@ body{
   .lilPicture:hover{
     filter: blur(4px);
   }
+  .downloadButton{
+    background-color: #fff;
+    /* display:inline-block; */
+    border: 0px;
+  }
+  .downloadImage{
+    width: 36px;
+    height: 41px;
+  }
 
   .icon{
     width: 56px;
@@ -201,7 +239,7 @@ body{
         grid-template-rows: auto;
       }
   } 
- @media (min-width: 800px) {
+ @media (min-width: 900px) {
     .grid-tech {
         grid-template-columns: 18% 18% 18% 18%;
     grid-template-rows: 100%;
