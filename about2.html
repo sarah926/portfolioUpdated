@@ -1,57 +1,108 @@
-<html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!DOCTYPE html>
+<html lang="en" href="#home">
+<script src="help.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, user-scalable=no">
 
 <head>
     <link rel="stylesheet" type="text/css" href="attempt.css" />
+    <link rel="stylesheet" type="text/css" href="about.css" />
     <title>Sarah's Porfolio</title>
 </head>
 
 <body>
     <nav>
-        <a href="attempt.html">
+        <a href="index.html">
             <h3 class="ad">Home</h3>
         </a>
         <a href="about2.html">
             <h3 class="ad">About</h3>
         </a>
         <button class="downloadButton" type="submit" onclick="window.open('SarahPMResume2.pdf')">
-            <h3
-                class="ad">Resume</h3>
+            <h3 class="ad">Resume</h3>
         </button>
+        <a href="http://www.linkedin.com/in/sarah-toll"><img src="images/linkedin.svg"
+            style="height:30px;float:right;margin-top:22px;" class="ad" /></a>
+        <a href="https://github.com/sarah926/"><img src="images/github.svg"
+                style="height: 30px;float: right;margin-top:22px;"class="ad" /></a>
     </nav>
-    <div class="grid-about">
-        <div class="grid-item-about">
-            <h1 style="margin: 0;font-size: 95px; font-weight: bolder; ">About Me</h1>
+    <br><br>
+    <div class="grid-about-1">
+        <div class="about-text">
+               <span style="--i:1">About </span> 
+               <span>&nbsp;</span>
+               <span style="--i:2">Me</span> 
         </div>
-        <div class="grid-item-about;">
-            <a href="http://www.linkedin.com/in/sarah-toll"><img src="images/linkedin.svg"
-                    style="width: 10%;max-height: 100%;" /></a>
-            <a href="https://github.com/sarah926/"><img src="images/github.svg"
-                    style="width: 10%;max-height: 100%;" /></a>
+        <div class="grid-item-about-1" >
+            <img src="images/sarahpic.JPG" style="width: 100%;">
         </div>
-        <div class="grid-item-about">
-            <img src="images/sarahpic.JPG" style="width: 100%;max-height: 100%;max-width: 100%;">
-        </div>
-        <div class="grid-item-about">
+        <div  class="grid-about-item-2">
             <h2 style="font-weight: lighter; font-size: 16px;">
-               I was born in Seattle, WA but moved to Toronto 4 years ago for school. I'm in my fourth year of Computer
-               Science Honors Bachelor Degree at University of Guelph. Graduating in June 2024, I am excited
-               to start my next chapter.
+                I was born in Seattle, WA but moved to Toronto 4 years ago for school. I'm in my fourth year of Computer
+                Science Honors Bachelor Degree at University of Guelph. Graduating in June 2024, I am excited
+                to start my next chapter working in the tech field.<br>Some other things I'm good at: social skills, keeping a conversation, playing the guitar, eye contact.
             </h2>
-        </div>
+         </div>
     </div>
-    <div style="float: left;">
-        <h2>my life when im not coding:</h2>
-        <img src="images/IMG_3845.jpeg" class="lilPicture" />
-        <img src="images/IMG_3646.jpeg" class="lilPicture" />
-        <img src="images/IMG_3570.jpeg" class="lilPicture" />
-        <img src="images/IMG_4202.jpeg" class="lilPicture" />
-        <img src="images/IMG_4130.jpeg" class="lilPicture" />
-        
-        <img src="images/IMG_4389.jpeg" class="lilPicture" />
-        <img src="images/IMG_4427.jpeg" class="lilPicture" />
-        <img src="images/IMG_4705.jpeg" class="lilPicture" />
-        <img src="images/IMG_2810.jpeg" class="lilPicture" />
+    <h2>Life when I'm not coding:</h2>
+    <!-- style="float:left;" -->
+    <div class="grid-pics">
+        <div class="container"> 
+            <img src="images/IMG_2810.jpeg" class="lilPicture" style="width:100%"/>
+            <div class="box">
+                <div class="text">VEGAS</div>
+            </div>
+        </div>
+        <div class="container"> 
+            <img src="images/IMG_4202.jpeg" class="lilPicture" style="width:100%"/>
+            <div class="box">
+                <div class="text">5K</div>
+            </div>
+        </div>
+       
+        <div class="container"> 
+            <img src="images/IMG_4705.jpeg"class="lilPicture"  style="width:100%"/>
+            <div class="box">
+                <div class="text">BASEBALL</div>
+            </div>
+        </div>
+        <div class="container"> 
+            <img src="images/IMG_3570.jpeg" class="lilPicture" style="width:100%"/>
+            <div class="box">
+                <div class="text">HIKE</div>
+            </div>
+        </div>
+        <div class="container"> 
+            <img src="images/IMG_4130.jpeg"class="lilPicture"  style="width:100%"/>
+            <div class="box">
+                <div class="text">FRIEND</div>
+            </div>
+        </div>
+        <div class="container"> 
+            <img src="images/IMG_4389.jpeg" class="lilPicture" style="width:100%"/>
+            <div class="box">
+                <div class="text">MT</div>
+            </div>
+        </div>
+       
+        <div class="container"> 
+            <img src="images/IMG_3845.jpeg"class="lilPicture" style="width:100%"/>
+            <div class="box">
+                <div class="text">DOG</div>
+            </div>
+        </div>
+        <div class="container"> 
+            <img src="images/IMG_4427.jpeg"class="lilPicture"  style="width:100%"/>
+            <div class="box">
+                <div class="text">TREE</div>
+            </div>
+        </div>
+        <div class="container"> 
+            <img src="images/IMG_3646.jpeg" class="lilPicture"  style="width:100%"/>
+            <div class="box">
+                <div class="text">HOMETOWN</div>
+            </div>
+        </div>
     </div>
 
 </body>
