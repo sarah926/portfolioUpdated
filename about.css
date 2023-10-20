@@ -116,13 +116,13 @@
    
     .grid-about-1{
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: 20% 60% 20%;
+        grid-template-columns: 90%;
+        grid-template-rows: 20% 50% 30%;
         grid-gap: 5%;
     }
     .grid-pics{
       display: grid;
-      grid-template-columns: 100%;
+      grid-template-columns: 90%;
       grid-template-rows: repeat(9,11%);
       grid-gap:1%;
     }
@@ -143,6 +143,7 @@
         grid-row-end:3;
         grid-column-start:2;
         width:100%;
+        margin-bottom:0;
       }.grid-about-item-2{
         grid-column-start: 1;
         grid-column-end: 3;
